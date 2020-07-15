@@ -3,3 +3,9 @@ def using_push(array, string)
   string = "violet"
   array.push(string)
 end
+
+def using_unshift(array, string)
+  array = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  string = "Staten Island"
+  array.unshift("Staten Island")
+end
