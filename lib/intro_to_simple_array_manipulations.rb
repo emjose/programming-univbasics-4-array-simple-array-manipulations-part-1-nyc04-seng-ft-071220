@@ -13,5 +13,5 @@ end
 def using_pop(array)
   array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   array.pop
-  new_array = array.pop(1)
+  array.pop(1)
 end
