@@ -14,3 +14,12 @@ def using_pop(array)
   array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   array.pop
 end
+
+def pop_with_args
+end
+
+def using_shift
+end
+
+def shift_with_args
+end
