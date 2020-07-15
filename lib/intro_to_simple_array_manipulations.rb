@@ -12,7 +12,8 @@ end
 
 def using_pop(array)
   array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  return array.pop
+  array.pop
+  array.take(6)
 end
 
 def pop_with_args(array)
@@ -23,7 +24,6 @@ end
 def using_shift(array)
   array = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   return array.shift
-  return
 end
 
 def shift_with_args(array)
